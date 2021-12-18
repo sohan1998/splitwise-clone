@@ -83,20 +83,6 @@ router.post('/getallgroupsaccepted/', async (req, res) => {
     }
 });
 
-// router.post("/allgroupsinvited/", async (req, res) => {
-//     try{
-//        console.log("Inside All groups user has been invited to")
-//         var useremail=req.body.useremail
-//         const allgroups= await User.find({email:useremail},{groups_invited:1});
-
-//         res.status(200).json({groups: allgroups});
-
-// }catch (error)
-// {
-//     res.writeHead(400, {'Content-Type': 'text/plain'})
-// }
-// });
-
 router.post('/allgroupsinvited/', async (req, res) => {
     kafka.make_request('getGroups', req.body, function (err, result) {
         console.log('in result');

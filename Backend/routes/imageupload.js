@@ -8,8 +8,6 @@ var util = require('util');
 const unlinkFile = util.promisify(fs.unlink);
 const { uploadFile, getFileStream } = require('../services/file-upload');
 
-// const singleUpload= upload.single('image');
-
 router.post('/imageupload', upload.single('file'), async function (req, res) {
     try {
         console.log('Inside API');
@@ -18,7 +16,6 @@ router.post('/imageupload', upload.single('file'), async function (req, res) {
         const useremail = req.body.useremail;
         console.log(useremail);
         console.log(file.path);
-        //console.log(file);
 
         // apply filter
         // resize

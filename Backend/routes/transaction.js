@@ -43,7 +43,7 @@ router.post('/userstosettle/', async (req, res) => {
         var useremail = req.body.useremail;
         let userlist = [];
 
-        //let allusers= await Transaction.find({receiver:useremail},{sender:1,splitamount:1});
+        // let allusers= await Transaction.find({receiver:useremail},{sender:1,splitamount:1});
         console.log('here1');
         let results = await Transaction.aggregate([
             { $match: { receiver: useremail } },
