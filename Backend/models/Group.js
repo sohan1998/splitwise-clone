@@ -27,4 +27,5 @@ const GroupSchema = new Schema({
         default: [],
     },
 });
+
 module.exports = Group = mongoose.model('groups', GroupSchema);

@@ -25,4 +25,5 @@ const BillSchema = new Schema({
         default: [],
     },
 });
+
 module.exports = User = mongoose.model('bills', BillSchema);
