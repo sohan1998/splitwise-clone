@@ -1,0 +1,16 @@
+.container {
+    margin-top: 6rem;
+    margin-left: 30rem;
+}
+
+
+.btn{
+    margin-top: 0.7rem;
+    background-color: #FF652F; 
+    color: white
+}
+
+.inputLogin{
+    font-size: 12pt;
+    font-weight: 500
+}
