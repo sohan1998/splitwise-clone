@@ -15,30 +15,27 @@ import Login from '../Login/Login';
 //const store = createStore(allReducers);
 
 const component = TestRenderer.create(
-  //<Provider store={store}>
+    //<Provider store={store}>
     <MemoryRouter>
-      <Login>
-     </Login>
+        <Login></Login>
     </MemoryRouter>
- // </Provider>
+    // </Provider>
 );
 
 // eslint-disable-next-line no-undef
 afterEach(cleanup);
 
 it('renders', async () => {
-  expect(component.toJSON()).toMatchSnapshot();
+    expect(component.toJSON()).toMatchSnapshot();
 });
 
 test('Check for header', async () => {
-  const { getByTestId } = render(
-  //  <Provider store={store}>
-      <MemoryRouter>
-        <Login>
-
-        </Login>
-      </MemoryRouter>
-    //</Provider>
-  );
-  expect(getByTestId('LoginTest')).toHaveTextContent('WELCOME TO SPLITWISE');
+    const { getByTestId } = render(
+        //  <Provider store={store}>
+        <MemoryRouter>
+            <Login></Login>
+        </MemoryRouter>
+        //</Provider>
+    );
+    expect(getByTestId('LoginTest')).toHaveTextContent('WELCOME TO SPLITWISE');
 });

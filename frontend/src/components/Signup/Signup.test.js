@@ -11,35 +11,32 @@ import '@testing-library/jest-dom';
 //import allReducers from '../../reducers';
 import NavbarClass from '../Navbar/Navbar';
 import Login from '../Login/Login';
-import Signup from '../Signup/Signup'
+import Signup from '../Signup/Signup';
 
 //const store = createStore(allReducers);
 
 const component = TestRenderer.create(
-  //<Provider store={store}>
+    //<Provider store={store}>
     <MemoryRouter>
-      <Signup>
-    </Signup>
+        <Signup></Signup>
     </MemoryRouter>
- // </Provider>
+    // </Provider>
 );
 
 // eslint-disable-next-line no-undef
 afterEach(cleanup);
 
 it('renders', async () => {
-  expect(component.toJSON()).toMatchSnapshot();
+    expect(component.toJSON()).toMatchSnapshot();
 });
 
 test('Check for header', async () => {
-  const { getByTestId } = render(
-  //  <Provider store={store}>
-      <MemoryRouter>
-        <Signup>
-
-        </Signup>
-      </MemoryRouter>
-    //</Provider>
-  );
-  expect(getByTestId('SignupTest')).toHaveTextContent('INTRODUCE YOURSELF');
+    const { getByTestId } = render(
+        //  <Provider store={store}>
+        <MemoryRouter>
+            <Signup></Signup>
+        </MemoryRouter>
+        //</Provider>
+    );
+    expect(getByTestId('SignupTest')).toHaveTextContent('INTRODUCE YOURSELF');
 });

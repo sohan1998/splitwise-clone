@@ -1,55 +1,51 @@
-.page{
+.page {
     height: 100vh;
     background-color: #512da8;
     display: flex;
     align-items: center;
     justify-content: center;
-  
-  }
-  .myImage{
+}
+.myImage {
     height: 300px;
     width: 300px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.5);
-    
-  }
-  .heading{
+}
+.heading {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 1rem;
     font-weight: bold;
-  
-  }
-  .img-holder{
+}
+.img-holder {
     margin: auto;
     width: 150px;
     height: 150px;
     border: 3px black solid;
     border-radius: 5px;
     margin-top: 1rem;
-  }
-  .img{
+}
+.img {
     width: 150px;
     height: 150px;
     object-fit: cover;
-  }
-  #input[type="file"] {
-      display: none;
-  }
-  .label{
+}
+#input[type='file'] {
+    display: none;
+}
+.label {
     width: 100%;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
-  }
-  .image-upload{
+}
+.image-upload {
     margin: auto;
     width: 200px;
-      height: 30px;
+    height: 30px;
     color: white;
     border-radius: 10px;
     background-color: black;
     text-align: center;
     cursor: pointer;
-  }
-  
+}

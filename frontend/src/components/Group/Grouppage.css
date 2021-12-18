@@ -1,17 +1,10 @@
-.thuscontainer
-{
-  
-    border: 5px solid rgb(111,41,97);
-    border-radius: .5em;
+.thuscontainer {
+    border: 5px solid rgb(111, 41, 97);
+    border-radius: 0.5em;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    
-    
-
- 
 }
-
 
 /* .delButton{
     position: absolute;

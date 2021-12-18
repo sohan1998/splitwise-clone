@@ -3,14 +3,13 @@
     margin-left: 30rem;
 }
 
-
-.btn{
+.btn {
     margin-top: 0.7rem;
-    background-color: #FF652F; 
-    color: white
+    background-color: #ff652f;
+    color: white;
 }
 
-.inputLogin{
+.inputLogin {
     font-size: 12pt;
-    font-weight: 500
+    font-weight: 500;
 }

@@ -1,22 +1,22 @@
-.navbar-light{
-    background-color: #4ED0A7 !important;
+.navbar-light {
+    background-color: #4ed0a7 !important;
 }
 
 .login {
-    color: white
+    color: white;
 }
 
-.signup{
-    background-color: #FF652F; 
+.signup {
+    background-color: #ff652f;
     color: white;
     max-height: 40px;
 }
 
-.btn:hover .btn:active .btn:focus{
-    background-color: #e75723; 
+.btn:hover .btn:active .btn:focus {
+    background-color: #e75723;
     color: white;
 }
 
-.a{
-color: white;
+.a {
+    color: white;
 }
