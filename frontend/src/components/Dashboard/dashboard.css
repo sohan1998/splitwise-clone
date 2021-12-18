@@ -1,0 +1,29 @@
+.col-md-3
+{
+    margin-top:4rem;
+}
+
+.addexpense
+{
+    background-color:#FF652F; 
+    color: white;
+    max-height: 40px;
+}
+.settle
+{
+    background-color:#5BC5A7;
+}
+.col-md-3
+{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    
+    
+}
+
+.myNavBar
+{
+    margin-top:4rem;
+}

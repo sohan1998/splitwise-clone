@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+Array [
+  <div>
+    <div
+      name="dashboarddisplay"
+    >
+      <center>
+        <h3
+          data-testid="Dashboard"
+        >
+          
+          's Dashboard
+        </h3>
+      </center>
+      <br />
+      <center>
+        <button
+          className="btn btn-primary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Settle up
+        </button>
+      </center>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-3"
+      >
+        <div
+          ClassName="myNavBar"
+        >
+          <div>
+            <div
+              className="sidenavbar"
+            >
+              <div
+                className="flex-column nav"
+                onKeyDown={[Function]}
+              >
+                <a
+                  className="nav-link"
+                  data-rb-event-key="/dashboard"
+                  href="/dashboard"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  Dashboard
+                </a>
+                <a
+                  className="nav-link"
+                  data-rb-event-key="/addgroup"
+                  href="/addgroup"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  Add a new group
+                </a>
+                <a
+                  className="nav-link"
+                  data-rb-event-key="/profile"
+                  href="/profile"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  Your Profile
+                </a>
+                <a
+                  className="nav-link"
+                  data-rb-event-key="/activity/null"
+                  href="/activity/null"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                >
+                  Recent Activity
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-3"
+      >
+        <b>
+          Total balance
+        </b>
+        <div>
+          <b>
+            $ 
+          </b>
+          0
+        </div>
+      </div>
+      <div
+        className="col-md-3"
+      >
+        <b>
+          You owe
+        </b>
+        <div>
+          <b>
+            $ 
+          </b>
+          0
+        </div>
+        <br />
+        <div />
+      </div>
+      <div
+        className="col-md-3"
+      >
+        <b>
+          You are owed
+        </b>
+        <div>
+          <b>
+            $ 
+          </b>
+          0
+        </div>
+        <br />
+        <div />
+      </div>
+    </div>
+     
+  </div>,
+  " ",
+]
+`;
