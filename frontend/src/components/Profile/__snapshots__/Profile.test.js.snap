@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<center>
+  <div>
+    <h2>
+      YOUR ACCOUNT
+    </h2>
+  </div>
+  <br />
+  <div>
+    <h5
+      data-testid="ProfileTest"
+    >
+      Your name:
+    </h5>
+  </div>
+  
+  <br />
+  <br />
+  <div>
+    <h5>
+      Your email id:
+    </h5>
+  </div>
+  <br />
+  <img
+    className="account-img-height rounded"
+    src="http://localhost:3001/untitled-3.jpg"
+  />
+  <input
+    accept=".jpg"
+    id="file"
+    onChange={[Function]}
+    type="file"
+  />
+  <button>
+    upload
+  </button>
+</center>
+`;
