@@ -1,0 +1,22 @@
+.navbar-light{
+    background-color: #4ED0A7 !important;
+}
+
+.login {
+    color: white
+}
+
+.signup{
+    background-color: #FF652F; 
+    color: white;
+    max-height: 40px;
+}
+
+.btn:hover .btn:active .btn:focus{
+    background-color: #e75723; 
+    color: white;
+}
+
+.a{
+color: white;
+}
