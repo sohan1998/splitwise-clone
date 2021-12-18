@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="row"
+  >
+    <img
+      alt="Splitwise"
+      class="col-md-3"
+      height="240"
+      src="login_logo.png"
+    />
+    <div
+      className="col-md-4"
+    >
+      <h4
+        data-testid="SignupTest"
+        style={
+          Object {
+            "color": "gray",
+            "fontSize": 19,
+            "marginBottom": 22,
+          }
+        }
+      >
+        INTRODUCE YOURSELF
+      </h4>
+      <form>
+        <div
+          className="form-group inputLogin"
+        >
+          <label
+            for="exampleInputName"
+            style={
+              Object {
+                "fontSize": 30,
+              }
+            }
+          >
+            Hi there! My name is
+          </label>
+          <input
+            aria-describedby="emailHelp"
+            class="form-control"
+            id="exampleInputName"
+            onChange={[Function]}
+            placeholder="Enter Full Name"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group inputLogin"
+        >
+          <label
+            for="exampleInputEmail1"
+          >
+            Here's my
+            <b>
+              email address:
+            </b>
+          </label>
+          <input
+            aria-describedby="emailHelp"
+            className="form-control"
+            id="exampleInputEmail1"
+            onChange={[Function]}
+            placeholder="Enter email"
+            type="email"
+          />
+        </div>
+        <div
+          className="form-group inputLogin"
+        >
+          <label
+            for="exampleInputPassword1"
+          >
+            And here's my
+            <b>
+              password:
+            </b>
+          </label>
+          <input
+            className="form-control"
+            id="exampleInputPassword1"
+            onChange={[Function]}
+            placeholder="Password"
+            type="password"
+          />
+        </div>
+        <button
+          class="btn"
+          onClick={[Function]}
+          type="submit"
+        >
+          Sign me up!
+        </button>
+        <p
+          style={
+            Object {
+              "fontSize": 12,
+              "marginTop": 10,
+            }
+          }
+        >
+          <a
+            href="#"
+          >
+            By signing up, you accept the Splitwise Terms of Service.
+          </a>
+        </p>
+      </form>
+    </div>
+  </div>
+   
+</div>
+`;
